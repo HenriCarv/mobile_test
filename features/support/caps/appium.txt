@@ -1,0 +1,8 @@
+[caps]
+platformName = "Android"
+deviceName = "Pixel_2_API_28"
+udid = "emulator-5554"
+app = "C:\\project\\Mobiletest\\QANinja\\appium2\\app-debug.apk"
+appPackge = "qaninja.com.pixel"
+appActivity = "qaninja.com.pixel.SplashScreen"
+automationName = ""
