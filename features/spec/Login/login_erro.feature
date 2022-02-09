@@ -7,7 +7,7 @@ Funcionalidade: Login errado
 
     @login_happiless
     Esquema do Cenario: Erro de login
-        Dado que acesso a tela de Login
+        Dado que acesso a tela de Login com usuarios
         Quando eu faço login com o <email> e <senha>
         Então devo ver <mensagem> como popup
 

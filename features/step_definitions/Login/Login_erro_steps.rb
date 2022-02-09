@@ -1,3 +1,7 @@
+Dado('que acesso a tela de Login com usuarios') do
+    acc.conta
+  end
+
 Quando('eu faço login com o {string} e {string}') do |email, senha|
     find_element(id: "qaninja.com.pixel:id/usernameTxt").send_keys(email)
     find_element(id: "qaninja.com.pixel:id/passwordTxt").send_keys(senha)
